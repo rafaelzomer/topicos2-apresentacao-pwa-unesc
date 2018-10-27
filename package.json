@@ -5,11 +5,14 @@
   "main": "index.js",
   "scripts": {
     "start": "mdx-deck apresentacao.mdx",
-    "build": "mdx-deck apresentacao.mdx -d dist"
+    "build": "mdx-deck build apresentacao.mdx -d dist",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "gh-pages": "^2.0.1",
     "mdx-deck": "^1.7.7"
   }
 }
