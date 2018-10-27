@@ -1,0 +1,111 @@
+export { yellow as theme } from 'mdx-deck/themes'
+
+# Progressive Web Apps
+---
+
+#### precisam ser:
+
+* Progressivos
+* Responsivos
+* Offilines
+* App-"like"
+* Atualizados
+
+---
+
+#### e ainda: 
+
+* Seguros
+* Buscaveis (google.com)
+* Engajáveis 
+* Instaláveis 
+* Linkaveis
+
+---
+# Progressivo
+
+### Funciona pra todos, se adapta
+---
+# Responsivo
+
+### Múltiplas resoluções
+---
+# Offilines
+
+### Suporta boas ou péssimas redes
+
+---
+# App-"like"
+
+### Tem uma aparência nativa
+---
+# Atualizados
+
+### Sem app store, sempre atualizados
+---
+# Seguros
+
+### HTTPS, sempre!
+---
+# Buscáveis
+
+### Otimizados para o SEO, search engines... etc.
+---
+# Engajáveis
+
+### Usam-se de features nativas para conquistar o usuário
+---
+# Instaláveis
+
+### Deve ser possível coloca-los na tela inicial do dispositivo
+---
+# Linkáveis
+
+### Cada tela tem um link único facilmente compartilhável.
+---
+# Configurando um PWA
+
+### Exemplo utilizado
+
+https://github.com/gitname/react-gh-pages
+
+---
+# Service Workers
+```jsx
+navigator.serviceWorker
+  .register('/service-worker.js')
+  .then(registration => {
+    console.log('Sucesso!');
+  })
+  .catch(error => {
+    console.log('Erro!');
+  });
+```
+---
+# Manifest File
+```json
+{
+  "short_name": "React App",
+  "name": "Create React App Sample",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
+```
+---
+# Quem usa? 
+## ~~tentou usar?~~
+* AliExpress
+* Twitter
+* Uber
+---
+# Obrigado!
+https://github.com/rafaelzomer/

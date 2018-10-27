@@ -1,0 +1,15 @@
+{
+  "name": "apresentacao-pwa-topicos-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "mdx-deck apresentacao.mdx",
+    "build": "mdx-deck apresentacao.mdx -d dist"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "mdx-deck": "^1.7.7"
+  }
+}
